@@ -1,0 +1,22 @@
+/* 
+    Created on : Feb 8, 2018, 5:50:42 PM
+    Author     : max_d
+*/
+body {
+  font-family: helvetica;
+  background-color: #000000;
+  color: #000000;
+  text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+}
+h2 {
+    color: #FFFFFF;
+}
+form {
+    color: #FFFFFF;
+}
+footer {
+      color: red;
+}

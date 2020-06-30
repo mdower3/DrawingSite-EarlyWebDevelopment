@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <script type="text/javascript" src="scripts/mousingOver.js"></script>
+        <title>Drawings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Which is Your Favorite?</h1>
+        <h2>Tell me in any contact method.</h2>
+        <table align="center">
+            <tr>
+                <td><img src="images/hugeForest.png" onmouseover="onMouseOver1()" onmouseout="onMouseOut1()" alt="Huge forest"></td>
+                <td><img src="images/Snoopy.png" onmouseover="onMouseOver2()" onmouseout="onMouseOut2()" alt="Hyper realistic snoopy"></td>
+                <td><img src="images/Desert.png" onmouseover="onMouseOver3()" onmouseout="onMouseOut3()" alt="Empty desert"></td>
+            </tr>
+            <tr>
+                <td id="pic1">Huge Forest</td>
+                <td id="pic2">Hyper-Realistic Snoopy</td>
+                <td id="pic3">Empty Desert</td>
+            </tr>
+        </table>
+
+        <form action="scripts/insert.php" method="post">
+            <table align="center">
+                <tr>
+                    <td>First Name: <input type="text" name="first"></td>
+                    <td>Last Name: <input type="text" name="last"></td>
+                </tr>
+                <tr>
+                    <td>Phone: <input type="text" name="phone"></td>
+                    <td>Mobile: <input type="text" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td>Fax: <input type="text" name="fax"></td>
+                <td>E-mail: <input type="text" name="email"></td>
+                </tr>
+                <tr><td>Web: <input type="text" name="web"></td></tr>
+            </table>
+            <input type="Submit">
+        </form>
+        <br><br><br>
+        <a href="scripts/index.php">Show contacts</a>
+    </body>
+</html>
